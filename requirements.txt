@@ -1,0 +1,12 @@
+ipykernel
+yfinance
+newspaper3k 
+pandas
+lxml_html_clean
+sentence-transformers
+nltk
+qdrant_client
+python-dotenv
+langchain
+langchain_community
+llama_index
