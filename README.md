@@ -25,6 +25,23 @@ The data consists of Stock prices and News articles of Apple from 2023-2024.
 
 If you would like to collect a different timeline of data, or different company profile, please run the `dataset_prep.ipynb` file.
 
+## Docker Setup
+Setting Up Qdrant for Financial Data
+
+Installing Qdrant using Docker: Docker is the recommended method for setting up Qdrant. Run the following in bash:
+
+```
+docker pull qdrant/qdrant 
+docker run -p 6333:6333 qdrant/qdrant
+```
+Assuming Qdrant is running, connect to it using the qdrant-client library in python to your localhost or remote server:
+```
+from qdrant_client import QdrantClient
+
+# Connect to the Qdrant service
+client = QdrantClient("http://localhost:6333")
+```
+
 ## Code: 
 Please go to `financial_analysis.ipynb` file in the directory to run the end-to-end example of financial analysis with Dense and Sparse Vectors using Qdrant. 
 
