@@ -41,6 +41,10 @@ from qdrant_client import QdrantClient
 # Connect to the Qdrant service
 client = QdrantClient("http://localhost:6333")
 ```
+## Data Collection :
+```bash
+pip install git+https://github.com/nathanrchn/perplexityai.git
+```
 
 ## Code: 
 Please go to `financial_analysis.ipynb` file in the directory to run the end-to-end example of financial analysis with Dense and Sparse Vectors using Qdrant. 

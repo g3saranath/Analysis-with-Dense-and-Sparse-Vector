@@ -10,3 +10,6 @@ python-dotenv
 langchain
 langchain_community
 llama_index
+news-please
+openpyxl
+websocket-client
