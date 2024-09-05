@@ -14,7 +14,7 @@ pip install -r requirements.txt
 If Python venv:
 ```
 python3 -m venv .fin_ana
-source .venv/bin/activate
+source .fin_ana/bin/activate
 pip install "qdrant-client[fastembed]>=1.8.2"
 python install -r requirements.txt
 ```
