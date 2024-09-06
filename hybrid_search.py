@@ -16,7 +16,7 @@ class HybridSearcher:
             collection_name=self.collection_name,
             query_text=text,
             query_filter=None,  # If you don't want any filters for now
-            limit=5,  # 5 the closest results
+            limit=1,  # 5 the closest results
         )
         # `search_result` contains found vector ids with similarity scores 
         # along with the stored payload
